@@ -111,7 +111,7 @@ func detectFaces(apiKey APIKey, img gocv.Mat) ([]image.Rectangle, error) {
 	defer tempFile.Close()
 
 	//Path to image
-	imagePath := "/Users/ankitapanchal/Desktop/Ankita.jpg"
+	imagePath := "/path/image.jpg"
 
 	//Load image from path
 	img = gocv.IMRead(imagePath, gocv.IMReadColor)
