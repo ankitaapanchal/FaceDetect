@@ -52,7 +52,7 @@ func main() {
 	defer window.Close()
 
 	// Define the Luxand Cloud API key
-	apiKey := APIKey("22cbd6fcdd2c43d98351b3b40285997f")
+	apiKey := APIKey("Your_API_Key")
 
 	// Start face recognition
 	findFaces(webcam, window, apiKey)
