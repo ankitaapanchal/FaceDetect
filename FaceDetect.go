@@ -183,7 +183,4 @@ func detectFaces(apiKey APIKey, img gocv.Mat) ([]image.Rectangle, error) {
 	return rectangles, nil
 }
 
-/*I referred to the following resources to complete this project:
-Luxand cloud examples
-jsantore/GocvInClass2024 Repository
-ChatGPT */
+
